@@ -66,9 +66,7 @@
 	overflow: hidden;
 }
 .screen-reader-text:focus,
-.screen-reader-shortcut:focus,
-.genesis-nav-menu .search input[type="submit"]:focus,
-.widget_search input[type="submit"]:focus  {
+.screen-reader-shortcut:focus {
 	clip: auto !important;
 	height: auto;
 	width: auto;
@@ -571,6 +569,7 @@ input[type='submit'] {
      text-decoration: none;
      font-weight: 400;
      border-radius: 5px;
+     cursor: pointer;
 }
 .button:hover,
 button:hover,
