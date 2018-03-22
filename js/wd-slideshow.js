@@ -20,7 +20,7 @@
 				};
 				this.config = config;
 				var $container = $(this),
-					slideSelector = '.slider-con',
+					slideSelector = '.wd-slide',
 					fading = false,
 					slideTimer,
 					activeSlide,
@@ -86,7 +86,7 @@
 					$pagerList
 						.append('<li class="slide-nav" data-target="'+i+'">'+i+'</li>');
 				};
-				jQuery('.fader_controls .page').bind('click',function(){
+				jQuery('.slideshow-controls .page').bind('click',function(){
                          		var target = jQuery(this).attr('data-target');
                          		clearTimeout(slideTimer);
                          		changeSlides(target);
@@ -110,7 +110,7 @@
 })(jQuery);
 
 jQuery(function(){
-  jQuery('.slideshow-con').easyFader({
+  jQuery('.slideshow-container').easyFader({
     slideDur: 6000,
     fadeDur: 800
   });
