@@ -176,7 +176,7 @@ input {
      color: #616d79;
      font-family: 'Nunito Sans', Arial, Helvetica, Tahoma, sans-serif;
      font-weight: 400;
-     line-height: 1.6em;
+     line-height: 1.6;
      margin: 0;
      padding: 0;
      text-decoration: none;
@@ -216,6 +216,9 @@ a,
 a:visited {
      color: #199691;
      background-color: transparent;
+     font-size: 18px;
+     font-size: 1.8rem;
+     line-height: 1.6;	
 }
 a:hover {
      color: #333;
