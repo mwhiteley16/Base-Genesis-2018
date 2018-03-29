@@ -447,15 +447,15 @@ form .gfield_radio li {
      overflow: hidden;
 }
 .validation_error {
-	float: left;
-	width: 100%;
-	margin-bottom: 25px;
-	border: 1px solid #b54040;
-	padding: 15px;
-	font-size: 16px;
-	border-radius: 5px;
-	text-align: center;
-	background-color: #ffe7e7;
+     float: left;
+     width: 100%;
+     margin-bottom: 25px;
+     border: 1px solid #b54040;
+     padding: 15px;
+     font-size: 16px;
+     border-radius: 5px;
+     text-align: center;
+     background-color: #ffe7e7;
 }
 .gfield_error input[type="email"],
 .gfield_error input[type="text"],
@@ -463,8 +463,17 @@ form .gfield_radio li {
 .gfield_error input[type="url"],
 .gfield_error textarea,
 .gfield_error select {
-	border: 1px solid #b54040;
-	background-color: #ffe7e7;
+     border: 1px solid #b54040;
+     background-color: #ffe7e7;
+}
+.gform_validation_container,
+.gform_wrapper .gform_validation_container,
+body .gform_wrapper .gform_body ul.gform_fields li.gfield.gform_validation_container,
+body .gform_wrapper li.gform_validation_container,
+body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
+     display: none!important;
+     position: absolute!important;
+     left: -9000px;
 }
 /* ---------- 1.7 Commenting ---------- */
 .comment-respond,
