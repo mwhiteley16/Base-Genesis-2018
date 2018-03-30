@@ -23,8 +23,8 @@
      1.4 Common Classes
      1.5 Tables
      1.6 Forms
-	1.7 Commenting
-	1.8 Buttons
+     1.7 Commenting
+     1.8 Buttons
 2.0  Structure / Layout
      2.1 Column Classes
 3.0  Header
@@ -876,6 +876,21 @@ sidebar h3 {
 	font-weight: 700;
 }
 /* ========== 8.0 BLOG ========== */
+.pagination {
+     float: left;
+     width: 100%;
+     font-size: 18px;
+     font-size: 1.8rem;
+     margin-top: 25px;
+     padding-top: 35px;
+     border-top: 1px solid #ccc;
+}
+.pagination .alignleft {
+     float: left;
+}
+.pagination .alignright {
+     float: right;
+}
 /* ---------- 8.1 Archive ---------- */
 /* ---------- 8.2 Single ---------- */
 
