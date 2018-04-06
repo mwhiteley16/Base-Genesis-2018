@@ -418,6 +418,10 @@ form label {
 	font-size: 1.6rem;
 	margin-bottom: 5px;
 }
+form label .gfield_required {
+	color: #f11313;
+	margin-left: 3px;
+}
 form .ginput_complex label,
 .validation_message {
 	text-transform: uppercase;
