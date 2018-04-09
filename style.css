@@ -479,6 +479,12 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
      position: absolute!important;
      left: -9000px;
 }
+.gform_wrapper .gf_invisible, 
+.gform_wrapper .gfield_visibility_hidden {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+}
 /* ---------- 1.7 Commenting ---------- */
 ol.comment-list {
      float: left;
